@@ -1,0 +1,690 @@
+@CHARSET "ISO-8859-1";
+
+/* Custom styles */
+.white {
+    color:white;
+}
+
+.margin-t-10 {
+    margin-top:10px;
+}
+.margin-b-10 {
+    margin-bottom:10px;
+}
+.margin-b-30 {
+    margin-bottom:30px;
+}
+.display-inline {
+    display:inline;
+}
+.btn-custom {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 14px 34px;
+}
+
+.btn-login {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.btn-login:hover {
+    color: rgb(255, 255, 255);
+}
+
+.feature_image {
+    width: 100%;
+    height: 100%;
+}
+
+.margin-b-20 {
+    margin-bottom:20px;
+}
+
+.login-btn-div {
+    margin-top:20px;
+    float:right;
+}
+
+.login-btn-div a {
+    padding: 10px 20px;
+}
+/* Contact footer */
+.col-details {
+    padding-left: 48px;
+}
+.col-details h6 {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: normal;
+    color: #f97374;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    -webkit-transform-origin: center left;
+    -moz-transform-origin: center left;
+    -ms-transform-origin: center left;
+    -o-transform-origin: center left;
+    transform-origin: center left;
+    -webkit-transform: rotate(-90deg) translateX(-95%) translateY(50%);
+    -moz-transform: rotate(-90deg) translateX(-95%) translateY(50%);
+    -ms-transform: rotate(-90deg) translateX(-95%) translateY(50%);
+    -o-transform: rotate(-90deg) translateX(-95%) translateY(50%);
+    transform: rotate(-90deg) translateX(-95%) translateY(50%);
+}
+
+.contacts dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.contacts dd {
+    font-size: 14px;
+    color: #f97374;
+}
+
+.contacts .phone {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contacts dd + dd, .contacts dd + dt {
+    margin-top: 12px;
+}
+
+.contacts .email {
+    font-size: 16px;
+    color: #fff;
+}
+
+.links > a {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.container {
+    width:90%;	
+}
+
+.contacts .container .tab-left {
+    width: 10%;
+    border-top: 1px solid #fff;
+}
+
+.contacts .container .tab-right{
+    width: 10%;
+    border-top: 1px solid #fff;
+}
+
+.banner {
+    padding: 70px 0 25px;
+    float: left;
+    width: 100%;
+}
+
+/* Screen Shots Section Start */
+.screenshots {
+    float: left;
+    width: 100%;
+    background: #f7f7f7;
+    padding: 35px 0px 120px 0px;
+}
+.screenshots .container h3 {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    font-size:2.4rem;
+    color:#263723
+}
+
+.screenshots .container .tab-left {
+    width: 10%;
+}
+
+.screenshots .container .tab-right {
+    width: 10%;
+}
+
+#screenshot-carousel
+{
+    /*padding-top: 60px;*/
+}
+.nivo-lightbox-nav {
+    display: none !important;
+}
+#screenshot-carousel .item {
+    text-align:center;
+}
+
+#screenshot-carousel .item a img{
+    width: 100%;
+    /*height: 250px;*/
+    text-align:center;
+    margin-bottom: 60px;
+}
+
+.owl-wrapper, .owl-item {
+    width: 100% !important;
+}
+
+.colored-line {
+    height: 3px;
+    width: 150px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background: #ff686b;;
+}
+/* Screen Shots Section End */
+
+/* FAQ Section Start */
+.accordion {
+    border-bottom: 1px solid #c3c3c3;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.accordion-single .accordion-header.active {
+    background-image: url(//cdn2.hubspot.net/hubfs/2042153/Refresh/up-arrow.png?t=1482360572019);
+}
+.accordion-header {
+    cursor: pointer;
+    color: #1c94bc;
+    font-size: 24px;
+    font-weight: 300;
+    background-image: url(//cdn2.hubspot.net/hubfs/2042153/Refresh/down-arrow.png?t=1482360572019);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px;
+}
+
+.accordion-header p {
+    color: #1c94bc;
+    font-size: 23px;
+    margin: 0px 0px 20px 0px;
+    font-weight: 500;
+}
+
+.accordion-body {
+    display: none;
+    margin-bottom: 30px;
+}
+.accordion-body p {
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0 40px 0 0px;
+}
+/* FAQ Section End */
+
+/* Pricing Section Start */
+.section-title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.pricing {
+    float: left;
+    width: 100%;
+    background: #f7f7f7;
+    padding: 0px 0px 70px 0px;
+    transition: all 0.6s ease;
+}
+.pricing .container 
+{
+    width:60%;
+}
+
+@media (max-width:1024px) {
+    .pricing .container {width:90%;}
+}
+
+.pricing .container h3 {
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #263723;
+}
+.pricing .container .tab-left {
+    width: 10%;
+}
+.pricing .container .tab-right {
+    width: 10%;
+}
+.hr-left.white, .hr-right.white {
+    border-top: 1px solid #fff !important;
+}
+.hr-left {
+}
+.colored-white {
+    color: #fff;
+}
+.pricing-faq-title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color:#333;
+}
+.pricing-faq-que {
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.pricing-faq-ans {
+    color: #6d6f70;
+    text-align: left;
+    margin-bottom: 10px;    
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.pricing-col .planname {
+    text-transform:uppercase;
+    font-weight:600;
+}
+.pricing-col .price {
+    /*    font-size:52px;*/
+    font-weight:300;
+    margin:10px 0;
+}
+.pricing-col .billing {
+    text-transform:uppercase;
+    color:#FFF;
+    opacity:0.7;
+}
+.pricing-col .price .curr {
+    display:inline-block;
+    font-size:15px;
+    vertical-align:super;
+}
+.pricing-col .price .per {
+    display:inline-block;
+    font-size:20px;
+    vertical-align: baseline;
+}
+.color1 {
+    background-color:#155690;
+}
+.color2 {
+    background-color:#ae8010;
+}
+.color3 {
+    background-color:#457f3c;
+}
+
+@media only screen and (max-width: 768px) {
+    .pricing-col {
+        margin-bottom:20px;
+    }
+}
+
+.pricing-col {
+    padding:25px;
+    color:#FFF;
+    text-align:center;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -moz-transition:all 0.6s ease;
+    -webkit-transition:all 0.6s ease;
+    -ms-transition:all 0.6s ease;
+    -o-transition:all 0.6s ease;
+    transition:all 0.6s ease;
+    cursor: pointer;
+    height:170px;
+}
+.pricing-col:hover {
+    -moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    transform:scale(1.05);
+    z-index:2;
+} 
+/* Pricing Section End */
+
+
+/* Features Section Start */
+
+.feature-header {
+    color:#740202;
+    font-size:2rem;
+    text-transform:uppercase;
+    text-align: center;	
+}
+
+ul.feature-master-list {
+    color:#333;
+    list-style-type: disc;
+    padding-left: 28%;
+    font-size: 1.7rem;	
+    font-weight:600;
+    margin-bottom: 10px;
+}
+
+ul.feature-list {
+    color:#333;
+    list-style-type: circle;
+    padding-left: 28%;
+    font-size: 1.6rem;	
+}
+
+.feature-arrow-down {
+    font-size: 2.2rem !important;
+    margin: 30px 0px 30px 55%;
+}
+
+.feature-chart-img {
+    width: 80%;
+    margin:0px 0px 20px 20%;
+}
+
+.feature-recomm-text {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.salientFeatureList {
+    list-style-type: circle;
+}
+
+.salientFeatureList1 {
+    list-style-type: none;
+}
+
+.salientFeatureList li{
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 0px 10px 10px;
+}
+
+.salientFeatureList li i {
+    font-size: 4rem;
+    color: #f97374;
+}
+
+.feature-table tr td {
+    padding:15px;
+}
+
+.feature-table tr td i {
+    font-size:4rem;
+}
+
+.feature-table tr td strong {
+    color:#000000;
+    font-size:1.5rem;
+    font-weight:600;
+}
+
+.salientFeatureList li strong {
+    margin-left:30px;
+}
+
+.padding-l-0 {
+    padding-left:0px !important;
+}
+
+.featureTable {
+    margin: 30px 0px 30px 0px;
+    font-size: 18px;
+}
+.featureColor {
+    color:#f97374;
+}
+.margin-l-15 {
+    margin-left:15px;
+}
+.margin-t-20 {
+    margin-top:20px;
+}
+.margin-b-5 {
+    margin-bottom:5px;
+}
+.margin-t-5 {
+    margin-top:5px;	
+}
+
+.featureConditionsSubtext {
+    margin-left: 20px;
+    font-size: 13px !important;
+    font-weight: 400;
+}
+
+.reviews .tab-content #feature p {
+    width: 100%;
+    color: #000000;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0 40px 0 10px;
+}
+
+.featureSubHeader {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/* Features Section End */
+
+/* Reviews Section Start */
+.tab_active_div {
+    display:none;
+}
+.reviews .tab-wrapper .nav-tabs li.active div.tab_active_div{
+    display:inline;
+}
+
+.tab-left {
+    border-top: 1px solid #263723;
+    display: inline-block;
+    height: 12px;
+    width: 39%;
+    margin-right: 15px;
+}
+
+.tab-right {
+    border-top: 1px solid #263723;
+    display: inline-block;
+    height: 12px;
+    width: 39%;
+    margin-left: 15px;
+}
+
+.tab-colored {
+    color: #263723;
+}
+
+.nav > li > a {
+    padding: 40px 15px 20px 15px !important;
+}
+.pricing-col .price .per {
+    display: inherit;
+}
+/* Reviews Section End */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    #screenshot-carousel {
+        padding-top: 148px;
+    }
+
+    .features .feature-box .heading img {
+        width: 22%;
+    }
+
+    .pricing-col .price .per {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .reviews .tab-wrapper .nav-tabs li.active a, .reviews .tab-wrapper .nav-tabs li:hover a {
+        font-size: 19px;
+    }
+
+    .download .intro h1 {
+        font-size: 4rem;
+    }
+
+    .reviews .tab-wrapper .nav-tabs li a {
+        font-size: 1.8rem;
+    }
+
+    .accordion-header p {
+        font-size: 15px;
+    }
+
+    #screenshot-carousel .item a img {
+        width: 97% !important;
+        height: 100% !important;}
+}
+
+@media only screen and (max-width : 800px) and (orientation : portrait) {
+    .features .feature-box .heading img {
+        width: 11%;
+        margin-top: 0px;
+    }
+
+    .tab-left,  .tab-right {
+        width: 32%;
+    }
+
+    .planpricing .col-md-4.col-xs-12 {
+        margin-bottom: 20px;
+    }
+
+    .pricing-col .price .per {
+        display: block;
+    }
+
+}
+@media only screen and (max-width : 800px) and (orientation : landscape) {
+    .features .feature-box .heading img {
+        width: 11%;
+        margin-top: 0px;
+    }
+
+    .tab-left,  .tab-right {
+        width: 32%;
+    }
+
+    .planpricing .col-md-4.col-xs-12 {
+        margin-bottom: 20px;
+    }
+
+    .pricing-col .price .per {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .feature-colmn {
+        margin-top: 20px;
+    }
+    .nav-trigger, .back-to-top, .review-watermark {
+        display:none !important;
+    }
+    #screenshot-carousel {
+        padding-top:0px !important;
+    }
+
+    .reviews .tab-content #overview p, .reviews .tab-content #advantages p {
+        padding:0px !important;
+        margin-bottom:10px;
+    }
+    .reviews .tab-content {
+        padding: 30px 0 30px 0;
+    }
+}
+
+@media only screen and (max-width : 600px) and (max-height : 800px) {
+    .pricing-col .price .per {
+        display: block;
+    }
+    .pricing-faq-que {
+        font-size: 1.3rem;
+    }
+    .pricing-faq-ans {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width : 568px) and (orientation : landscape) {
+    .login-btn-div {
+        float: none;
+        text-align: center;
+    }
+    .login-btn-div .signup-btn {
+        margin-right:10px;
+    }
+    .pricing-faq-que {
+        font-size: 1.3rem;
+    }
+    .pricing-faq-ans {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .download .intro .logo {
+        max-width: 50%;
+        margin-top: 0px; 
+    } 
+    .download .intro h1 {
+        font-size: 2rem;
+        margin: 20px 0 20px 0;
+    }
+    .btn-markets, .download .intro .app-store, .download .intro .google-play, .reviews .tab-content .feature-text .more-features {
+        width: 130px;
+        height: 45px;
+        line-height: 45px;
+        padding:0px;
+    }
+    .features .feature-box .heading img {
+        width: 17%;
+    }
+    .features .feature-box .box-content p {
+        font-size: 1.2rem;
+    }
+    .feature_image {
+        display:none;
+    }
+    .copyrightDiv {
+        padding: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .accordion-header p {
+        font-size: 12px;
+    }
+
+    .accordion-body p {
+        font-size: 11px;
+    }
+    .login-btn-div {
+        float: none;
+        text-align: center;
+    }
+    .login-btn-div .signup-btn {
+        margin-right:10px;
+    }
+    .pricing-faq-ans {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}

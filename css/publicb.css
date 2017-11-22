@@ -1,0 +1,94 @@
+@CHARSET "ISO-8859-1";
+
+.privacyHeader {
+	background: #22263a url(../images/backgrounds/header-bg.png) top center no-repeat;
+	height: 100px !important;
+    padding: 0px 150px 0px 225px;
+}
+
+.privacy-logo {
+	width: 150px;
+    margin-top: 20px;
+}
+
+.main {
+	margin:160px 0px 60px 0px;
+	float: left;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(26,26,26,.7);
+}
+
+.main .container {
+	width: 75%;
+}
+
+.main p {
+	font-size: 20px;
+    margin: 10px 0px;
+}
+
+.bgwhite {
+	background-color: #fff !important;
+}
+
+.btn-markets {
+	padding: 10px 20px;
+}
+
+.btn-div {
+	margin-top:20px;
+	float:right;
+}
+
+@media only screen and (max-width: 1024px) {
+	.main .container {
+		width: 100%;
+	}
+	
+	.btn-div {
+		padding-right:0px !important;	
+		margin-top:20px;
+	}
+	
+	.btn-markets {
+		padding: 10px 8px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.privacyHeader {
+		padding:0px !important;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-div {
+        margin-top: 30px;
+    }
+
+    .privacy-logo {
+        width: 100px;
+        margin-top: 30px;
+    }
+}
+
+.review-watermark {
+    position: absolute;
+    top: 300px;
+    bottom: 50%;
+    font-size: 20rem;
+    color: #cfe5de;
+    opacity: .3;
+    z-index: 1;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.height100 {
+    height: 100%;
+}
